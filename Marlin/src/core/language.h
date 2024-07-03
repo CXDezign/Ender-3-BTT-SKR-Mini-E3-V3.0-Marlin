@@ -92,7 +92,7 @@
   #define MACHINE_UUID DEFAULT_MACHINE_UUID
 #endif
 
-#define MARLIN_WEBSITE_URL "marlinfw.org"
+#define MARLIN_WEBSITE_URL "cxdezign.dev"
 
 //#if !defined(STRING_SPLASH_LINE3) && defined(WEBSITE_URL)
 //  #define STRING_SPLASH_LINE3 WEBSITE_URL
@@ -120,7 +120,7 @@
 #define STR_ERR_CHECKSUM_MISMATCH           "checksum mismatch, Last Line: "
 #define STR_ERR_NO_CHECKSUM                 "No Checksum with line number, Last Line: "
 #define STR_FILE_PRINTED                    "Done printing file"
-#define STR_NO_MEDIA                        "No media"
+#define STR_NO_MEDIA                        "SD Card Missing"
 #define STR_BEGIN_FILE_LIST                 "Begin file list"
 #define STR_END_FILE_LIST                   "End file list"
 #define STR_INVALID_EXTRUDER                "Invalid extruder"
@@ -170,7 +170,7 @@
 #define STR_DONE                            "Done."
 
 #define STR_SD_CANT_OPEN_SUBDIR             "Cannot open subdir "
-#define STR_SD_INIT_FAIL                    "No SD card"
+#define STR_SD_INIT_FAIL                    "SD Card Uninitialised"
 #define STR_SD_VOL_INIT_FAIL                "volume.init failed"
 #define STR_SD_OPENROOT_FAIL                "openRoot failed"
 #define STR_SD_CARD_OK                      "SD card ok"

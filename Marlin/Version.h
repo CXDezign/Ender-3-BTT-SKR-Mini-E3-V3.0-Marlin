@@ -46,7 +46,7 @@
 /**
  * Defines a generic printer name to be output to the LCD after booting Marlin.
  */
-//#define MACHINE_NAME "3D Printer"
+#define MACHINE_NAME "CXD"
 
 /**
  * The SOURCE_CODE_URL is the location where users will find the Marlin Source
@@ -65,7 +65,7 @@
  * The WEBSITE_URL is the location where users can get more information such as
  * documentation about a specific Marlin release.
  */
-//#define WEBSITE_URL "marlinfw.org"
+#define WEBSITE_URL "cxdezign.dev"
 
 /**
  * Set the vendor info the serial USB interface, if changable

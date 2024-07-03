@@ -52,7 +52,7 @@
 #define MAX_PATH_LEN                   16 * MAX_FOLDER_DEPTH // Maximum number of characters in a SD file path
 
  // TFT panel commands
-#define  msg_welcome                MACHINE_NAME " Ready."
+#define  msg_welcome                MACHINE_NAME " Creality Ender 3 BTT SKR Mini E3 V3"
 
 #define SEND_TEMP(x,y,t,z)  (nextion.SendtoTFT(F(x)), nextion.SendtoTFT(F(".txt=\"")), LCD_SERIAL.print(y), nextion.SendtoTFT(F(t)), LCD_SERIAL.print(z), nextion.SendtoTFT(F("\"\xFF\xFF\xFF")))
 #define SEND_VAL(x,y)       (nextion.SendtoTFT(F(x)), nextion.SendtoTFT(F(".val=")),   LCD_SERIAL.print(y), nextion.SendtoTFT(F("\xFF\xFF\xFF")))
